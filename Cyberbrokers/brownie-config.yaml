@@ -45,16 +45,15 @@ networks:
     kovan:
         host: https://kovan.infura.io/v3/$WEB3_INFURA_PROJECT_ID
     rinkeby:
-        # host: https://rinkeby.infura.io/v3/$WEB3_INFURA_PROJECT_ID
-        host: https://eth-rinkeby.alchemyapi.io/v2/3bFVXXYYQkhMjpN-7ahgNe7sQqi0S27F
+        host: https://rinkeby.infura.io/v3/$WEB3_INFURA_PROJECT_ID
     ropsten:
         host: https://ropsten.infura.io/v3/$WEB3_INFURA_PROJECT_ID
     classic:
         host: https://www.ethercluster.com/etc
     kotti:
         host: https://www.ethercluster.com/kotti
-    polygon-mumbai:
-        host: https://polygon-mumbai.g.alchemy.com/v2/l9Fqlr-0qBxvCfxBNR7t8aKhsHAP5qyg
+    polygon:
+        host: https://polygon-mainnet.g.alchemy.com/v2/$WEB3_ALCHEMY_PROJECT_ID
 pytest:
     # these settings replace the defaults when running pytest
     gas_limit: 6721975
